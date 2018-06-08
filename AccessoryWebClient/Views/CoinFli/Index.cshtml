@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<body>
+    <div>
+        <label id="coinflimessage">
+            @Html.Raw(@ViewBag.Message)
+        </label>
+        <br />
+        <form action="/coinfli" method="Post">
+            <button>Flip Coin</button>
+        </form>
+        <br />
+        <form action="/coinfli" method="Get">
+            <button>Reset</button>
+        </form>
+        <br />
+        <form action="/" method="Get">
+            <button>Return</button>
+        </form>
+        <br />
+    </div>
+</body>

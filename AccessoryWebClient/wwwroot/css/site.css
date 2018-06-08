@@ -1,0 +1,24 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+
+#appheader {
+    color: blanchedalmond;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: darkcyan;
+}
+
+#appfooter {
+    font-size: 15px;
+    background-color: darkcyan;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+
+#outputbox 
+      {
+        background-color: lightgray;
+      }
+

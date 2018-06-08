@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<body>
+    <div>
+        <label id="fortuntelmessage">
+            @Html.Raw(@ViewBag.Message)
+        </label>
+        <br />
+        <form action="/fortunetel" method="Post">
+            <button>Truth</button>
+        </form>
+        <br />
+        <form action="/fortunetel" method="Get">
+            <button>Reset</button>
+        </form>
+        <form action="/" method="Get">
+            <button>Return</button>
+        </form>
+        <br />
+    </div>
+</body>
