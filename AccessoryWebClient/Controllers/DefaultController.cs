@@ -14,12 +14,12 @@ namespace AccessoryWebClient.Controllers
         [Route("/")]
         public IActionResult Index()
         {
-            ViewBag.RandomNumButton = "Random Number Demo";
+            ViewBag.RandomNumButton = "Random Number";
             ViewBag.RandomNumInfo = "Pick a random number between two random numbers.";
             ViewBag.CoinFliButton = "Flip a Quarter";
-            ViewBag.CoinFliInfo = "Flip and coin and reveal heads or tails!";
+            ViewBag.CoinFliInfo = "Flip a quarter and reveal heads or tails!";
             ViewBag.FortuneTelButton = "Fortune Teller";
-            ViewBag.FortuneTelInfo = "Get you API fortune!";
+            ViewBag.FortuneTelInfo = "Get your accurate API fortune!";
 
             return View("Index");
         }
